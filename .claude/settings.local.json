@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip freeze *)",
+      "Bash(git init *)",
+      "Bash(git add *)"
+    ]
+  }
+}
