@@ -77,7 +77,16 @@ def inicio():
     return {
         "mensaje": "Backend funcionando correctamente"
     }
+# ==========================================
+# HEALTH CHECK
+# ==========================================
 
+@app.get("/api/health")
+def health():
+
+    return {
+        "status": "ok"
+    }
 
 
 # ==========================================
